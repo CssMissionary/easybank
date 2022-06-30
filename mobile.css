@@ -1,0 +1,155 @@
+*{
+    text-decoration: none;
+}
+header{
+    height: 50px;
+}
+nav{
+    display: none;
+}
+.logo{
+    margin-left: -40px;
+}
+.request{
+    display: none;
+}
+.hamburger{
+    display: block;
+    margin-left: 100px;
+}
+.close-modal{
+    margin-left: 100px;
+}
+.top{
+    flex-direction: column;
+}
+.mockup{
+    display: none;
+}
+.top .nxt-gen{
+    margin-top: 330px;
+    margin-left: 30px;
+    text-align: center;
+}
+.top{
+    height: 630px;
+}
+.nxt-gen p{
+    width: 100%;
+}
+.bg{
+    margin-left: -150px;
+    top: -580px;
+    height: 330px;
+    width: 450px;
+}
+.valid{
+    display: block;
+    margin-left: 80px;
+}
+.intro{
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+}
+.features{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+}
+.feature{
+    margin-top: 40px;
+}
+.feature p{
+    width: 100%;
+    padding: 0 20px;
+}
+.why{
+    padding-top: 20px;
+    height: 1200px;
+}
+.articles{
+    flex-direction: column;
+}
+.latest{
+    height: 1840px;
+}
+.latest h1{
+    padding-top: 40px;
+    text-align: center;
+    margin-left: -50px;
+}
+.article{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.article h3{
+    width: 80%;
+}
+footer{
+  flex-direction: column;
+  height: 400px;
+}
+footer .socials{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.medias{
+margin: 0;
+margin-left: 20px;
+}
+.links{
+    margin-top: 20px;
+    margin-left: -70px;
+}
+.links a{
+    text-align: center;
+}
+.rights{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -40px;
+}
+.two{
+    margin-top: -25px;
+}
+.close{
+    display: none;
+}
+.modal-container{
+        position: fixed;
+        top: 50px;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.575);
+        overflow-y: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        display: none;
+}
+.modal{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-top: 65px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.modal li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.modal a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.modal a:hover{
+    color: green;
+}
